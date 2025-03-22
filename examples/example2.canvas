@@ -1,0 +1,15 @@
+canvas {
+  background "black";
+  
+  animate {
+    frame {
+      circle at (5, 5) radius 3 fill "red";
+    }
+    frame {
+      circle at (10, 5) radius 3 fill "blue";
+    }
+    frame {
+      circle at (15, 5) radius 3 fill "green";
+    }
+  } for 5000;
+}

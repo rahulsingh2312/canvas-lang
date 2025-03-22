@@ -1,0 +1,43 @@
+{
+  "name": "canvas-lang",
+  "version": "1.0.0",
+  "description": "A simple ASCII graphics language for the terminal",
+  "main": "lib/index.js",
+  "bin": {
+    "canvas-lang": "./bin/canvas-lang.js"
+  },
+  "scripts": {
+    "start": "node ./bin/canvas-lang.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ascii",
+    "art",
+    "animation",
+    "terminal",
+    "canvas",
+    "script",
+    "graphics",
+    "lang"
+  ],
+  "author": "@rrahulol",
+  "license": "MIT",
+  "dependencies": {
+    "ascii-art": "^2.8.5",
+    "chalk": "^5.2.0",
+    "color-convert": "^2.0.1",
+    "log-update": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rahulsingh2312/canvas-lang"
+  },
+  "bugs": {
+    "url": "https://github.com/rahulsingh2312/canvas-lang/issues"
+  },
+  "homepage": "https://canvas-lang.gitbook.io/home",
+  "type": "module",
+  "engines": {
+    "node": ">=14.16.0"
+  }
+}

@@ -1,0 +1,5 @@
+canvas {
+  background "navy";
+  circle at (10, 10) radius 5 fill "yellow";
+  text "Hello World" at (0, 15) size 10 color "white";
+}

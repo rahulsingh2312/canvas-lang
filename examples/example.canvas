@@ -1,0 +1,4 @@
+canvas {
+  background "black";
+  rainbow "Welcome to Canvas-lang!" at (5, 5) duration 200;
+}
